@@ -151,3 +151,9 @@ The repository includes the five backend code/prompt files, full frontend source
 The local project had no `.git` directory or prior commits when submission preparation began. That means there was no earlier local history to clean; it does not make a claim about any unrelated repository. Staged content and the complete newly created history are checked before publishing.
 
 For a quick first-run check, open Products and a detail page, then ask the chat: “What is the price of Champion Reverse Weave Hoodie 1, and how many are in stock in size M?” With the supplied data and a working key, it should report $68 and 20 in M. Ask for hoodies to see clickable cards. The full test commands above use temporary databases/audit files where needed and no paid model calls.
+
+### Verified clean installation — October 5, 2026
+
+The public repository at https://github.com/qingyuanzhangyaleedu/hw4 was cloned without credentials into a new temporary `hw4` folder. All 40 tracked files were present; no real `.env`, data pack, virtual environment, dependency folder, or build output arrived in the clone. After supplying the local data pack/key, the install and server commands above worked using a new Python environment and a fresh `npm ci`.
+
+The clean site's live chat returned the Champion hoodie's $68 price and M stock of 20, displayed six hoodie cards, and opened the $45 Ua Gameday Double Knit Hood detail page from a chat card. All 59 backend tests, frontend build, lint, and `pip check` passed. All offline-report relative links resolved. Staged files and the newly created Git history were checked for excluded data and real keys before publication; only the intentional placeholder matched the generic key-assignment scan. No earlier local Git history existed.
