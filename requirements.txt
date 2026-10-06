@@ -1,0 +1,9 @@
+# Direct runtime dependencies, pinned to the verified homework environment.
+fastapi==0.141.1
+pydantic==2.13.5
+uvicorn[standard]==0.54.0
+argon2-cffi==25.1.0
+cryptography==50.0.1
+pydantic-ai-slim[openai]==2.51.0
+openai==3.20.0
+python-dotenv==1.2.3

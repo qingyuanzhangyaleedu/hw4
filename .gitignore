@@ -1,0 +1,34 @@
+# Local credentials; only the placeholder template belongs in Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Instructor data pack (database, product photos, and any local archives).
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.zip
+*.tar
+*.tar.gz
+
+# Local environments, dependencies, caches, and generated build files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Incomplete atomic audit saves are not submission artifacts.
+output/.audit-*.tmp
